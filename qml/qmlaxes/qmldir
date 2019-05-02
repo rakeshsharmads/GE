@@ -1,0 +1,3 @@
+singleton ButtonStyle1 1.0 ButtonStyle1.qml
+singleton VentStyle1 1.0 VentStyle.qml
+singleton WindowStyle1 1.0 WindowStyle.qml
