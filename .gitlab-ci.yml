@@ -7,8 +7,9 @@ build:
   script:
     - dir
     - qmake GE_PoC.pro
-    - bash anusha.sh
-    - mingw32-make
+  #  - bash anusha.sh
+  #  - mingw32-make
+    - i586-mingw32msvc-g++ -o essai.exe main.cpp
     - dir
  # tags:
   #  - ge-Win
