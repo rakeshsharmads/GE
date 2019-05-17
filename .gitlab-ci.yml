@@ -3,7 +3,7 @@ build:
   script:
     - dir
     - qmake GE_PoC.pro
-    - make
+    - mingw32-make
     - dir
   tags:
     - ge-Win
