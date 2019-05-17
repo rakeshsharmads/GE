@@ -1,4 +1,4 @@
-image: sathishnallaguntla/dev-env
+image: dark2011/qt-5.12.3
 build:
   script:
     - ls
