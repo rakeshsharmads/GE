@@ -7,6 +7,7 @@ build:
   script:
     - dir
     - qmake GE_PoC.pro
+    - bash anusha.sh
     - mingw32-make
     - dir
  # tags:
