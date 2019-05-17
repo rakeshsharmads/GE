@@ -1,12 +1,12 @@
 image: dark2011/qt-5.12.3
 build:
   script:
-    - ls
+    - dir
     - qmake -version
     - qmake -project
     - qmake
     - make
-    - ls
+    - dir
   tags:
     - ge-Win
     
