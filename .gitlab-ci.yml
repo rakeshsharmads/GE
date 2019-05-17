@@ -2,9 +2,7 @@ image: dark2011/qt-5.12.3
 build:
   script:
     - dir
-    - qmake -version
-    - qmake -project
-    - qmake
+    - qmake -GE_PoC.pro
     - make
     - dir
   tags:
