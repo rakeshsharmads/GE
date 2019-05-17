@@ -1,4 +1,6 @@
 image: dark2011/qt-5.12.3
+before_script:
+  - set PATH=%PATH%;C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe
 build:
   script:
     - dir
