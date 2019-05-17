@@ -5,6 +5,6 @@ build:
     - qmake GE_PoC.pro
     - mingw32-make
     - dir
-  tags:
-    - ge-Win
+ # tags:
+  #  - ge-Win
     
