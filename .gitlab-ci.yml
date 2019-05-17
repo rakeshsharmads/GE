@@ -1,7 +1,7 @@
 image: dark2011/qt-5.12.3
 before_script:
-  - pwd
-  - sudo apt-get install -y mingw-w64
+  #- pwd
+  #- sudo apt-get install -y mingw-w64
   #- set PATH=%PATH%;C:\Qt\Tools\mingw730_64\bin\mingw32-make.exe
 build:
   script:
@@ -9,7 +9,8 @@ build:
     - qmake GE_PoC.pro
   #  - bash anusha.sh
   #  - mingw32-make
-    - i586-mingw32msvc-g++ -o essai.exe main.cpp
+   # - i586-mingw32msvc-g++ -o essai.exe main.cpp
+    - mingw32-make
     - dir
  # tags:
   #  - ge-Win
