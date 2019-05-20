@@ -14,7 +14,7 @@ build:
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
     - echo $PATH
     - ls /usr/bin
-    - mingw-genlib
+    - /bin/bash/mingw32-make
     - dir
  # tags:
   #  - ge-Win
