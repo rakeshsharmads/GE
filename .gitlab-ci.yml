@@ -13,6 +13,7 @@ build:
   #  - mingw32-make
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
     - echo $PATH
+    - ls /usr/bin
     - mingw32-make
     - dir
  # tags:
