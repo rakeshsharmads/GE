@@ -12,6 +12,6 @@ build:
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
     - mingw32-make
     - dir
- # tags:
-  #  - ge-Win
+  tags:
+    - ge-Win
     
