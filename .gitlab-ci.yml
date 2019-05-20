@@ -12,9 +12,9 @@ build:
   #  - bash anusha.sh
   #  - mingw32-make
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
-    - echo $PATH
-    - ls /usr/bin
-    - /bin/bash/mingw32-make
+   # - echo $PATH
+    #- ls /usr/bin
+    - mingw32-make
     - dir
  # tags:
   #  - ge-Win
