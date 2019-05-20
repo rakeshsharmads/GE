@@ -16,6 +16,8 @@ build:
    # - echo $PATH
    # - ls /opt/Qt/5.12.3/gcc_64/bin
     #:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    - ls /usr/bin
+    - cd /usr/bin/i686-w64-mingw32-gcc
    
    # - dir
  # tags:
