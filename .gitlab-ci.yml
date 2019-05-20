@@ -1,6 +1,5 @@
 image: dark2011/qt-5.12.3
 before_script:
-        - apt-get update -y
         - apt-get install -y -qq gcc-mingw-w64-i686 g++-mingw-w64-i686 mingw-w64-tools nsis
 
   #- pwd
