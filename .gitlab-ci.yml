@@ -1,6 +1,6 @@
 image: dark2011/qt-5.12.3
-before_script:
-        - sudo apt-get install -y -qq gcc-mingw-w64-i686 g++-mingw-w64-i686 mingw-w64-tools nsis
+#before_script:
+ #       - sudo apt-get install -y -qq gcc-mingw-w64-i686 g++-mingw-w64-i686 mingw-w64-tools nsis
 
   #- pwd
   #- sudo apt-get install -y mingw-w64
@@ -9,8 +9,6 @@ build:
   script:
     - dir
     - qmake GE_PoC.pro
-#    - make
-  #  - bash anusha.sh
     - mingw32-make
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
    # - echo $PATH
