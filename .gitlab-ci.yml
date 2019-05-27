@@ -21,6 +21,6 @@ build:
     - /usr/bin/i586-mingw32msvc-g++ -o win.exe main.cpp
    
    # - dir
- # tags:
-  #  - ge-Win
+  tags:
+    - GE_POCnew
     
