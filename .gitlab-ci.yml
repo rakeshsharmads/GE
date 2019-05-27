@@ -19,6 +19,7 @@ build:
     #- /usr/bin/i586-mingw32msvc-g++ -o win.exe main.cpp
    
    # - dir
+    - windeployqt --release --qmldir C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\release 
   tags:
     - GE_POCnew
     
