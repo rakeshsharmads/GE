@@ -10,7 +10,7 @@ build:
     - dir
     - qmake GE_PoC.pro
     - mingw32-make
-    - windeployqt --release --qmldir C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\qml C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\release 
+    - windeployqt --release --qmldir C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\qml\qmlaxes C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\release 
 
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
    # - echo $PATH
