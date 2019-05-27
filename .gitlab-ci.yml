@@ -8,6 +8,7 @@ image: dark2011/qt-5.12.3
 build:
   script:
     - dir
+    - pwd
     - qmake GE_PoC.pro
     - mingw32-make
    # - i586-mingw32msvc-g++ -o essai.exe main.cpp
@@ -19,7 +20,7 @@ build:
     #- /usr/bin/i586-mingw32msvc-g++ -o win.exe main.cpp
    
    # - dir
-    - windeployqt --release --qmldir C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\release 
+  # - windeployqt --release --qmldir C:\GitLab-Runner\builds\2ySg1-Pt\0\sathishnallaguntla\gepoc\release 
   tags:
     - GE_POCnew
     
