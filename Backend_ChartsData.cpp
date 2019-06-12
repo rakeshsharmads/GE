@@ -14,7 +14,6 @@ QVector<double> BackendChartsData::getChartData()
     {
         yValue.push_back(sin(30*i)/*random()*/);
     }
-
-   return yValue;
+    return yValue;
 
 }
