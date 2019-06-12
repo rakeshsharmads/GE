@@ -33,6 +33,7 @@ int BackendNumericsData::getO2()
     o2Value+=3;
 
     if(o2Value > 56)
+        
         o2Value=2;
 
     return o2Value;
