@@ -4,7 +4,6 @@ BackendChartsData::BackendChartsData()
 {
 
 }
-
 QVector<double> BackendChartsData::getChartData()
 {
     QVector<double> yValue;
