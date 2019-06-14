@@ -5,7 +5,6 @@
 #include <QRunnable>
 #include <QThread>
 
-
 class BackendNumericsData : public QRunnable
 {
     int cm2HValue = 21;
